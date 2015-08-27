@@ -1,0 +1,229 @@
+﻿/*
+    #branding 
+    {
+        font-family: 'Audiowide', cursive;
+    }
+
+ .item { width: 25%; }
+.item.w2 { width: 800px; }  
+
+#featured { 
+	width: 940px;
+	height: 450px;
+	background: #000 url('orbit/loading.gif') no-repeat center center;
+	overflow: hidden; }
+#featured>img,  
+#featured>div,
+#featured>a { 
+    display: none; 
+	width: 940px;
+	height: 450px;
+}
+
+
+body  {
+  color: #ffffff; 
+  background: #000;
+}
+
+*/
+
+#branding {
+	margin-left: 80px;
+    margin-top: 30px;
+}
+
+#branding a
+{
+    color: #5f97af;
+	font-family: 'Poiret One';
+    font-size: 95%;
+}
+
+#layout-navigation {
+    border-bottom: none;
+}
+
+.widget-HeaderLogo {
+    float: left;
+}
+
+h1 {
+    font-size: 1.85em;
+}
+
+.presentacion
+{
+    text-align: center;
+}
+
+.presentacion h2
+{
+    margin-top: 10px;
+    margin-bottom: -20px;
+}
+
+.goBack {
+    display: inline-block;
+    float: right;
+    margin-right: 5px;
+}
+
+.zone-header {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    /* width: 90%; */
+}
+
+body {
+    /* background-color: #dde8fa; */
+    background-color: white;
+    font-size: 100%;
+}
+
+#layout-main-container {
+    background-color: white;
+    border-top-style: solid;
+    border-top-width: 1px;
+    border-top-color: lightgray;
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    border-bottom-color: lightgray;
+}
+
+#layout-main {
+    width: 95%;
+}
+
+.content-items .content-item header h1 a {
+    color: #5f97af;
+}
+
+.content-items .content-item header h1 a:hover {
+    text-decoration: none;
+    background-color: darkorange; 
+    color: white;
+}
+
+.content-item a:focus { 
+    text-decoration: none;
+}
+
+.content-item a:hover { 
+    text-decoration: none;
+    background-color: darkorange; 
+    color: white;
+}
+
+.item {
+  /* color: darkOrange; */
+}
+
+.item-alojamiento {
+    width: 400px;
+}
+
+.alojamiento {
+    width: 400px;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+.detail-alojamiento {
+    text-align: center;
+}
+
+.contacto {
+    width: 400px;
+    margin-left:auto;
+    margin-right:auto;
+    text-align: center;
+}
+
+h1 {
+    color: darkorange;
+	margin-bottom: 5px;
+	font-family: 'Poiret One';
+}
+
+a h1 {
+    color: #5f97af;
+}
+
+a:hover h1 { 
+    text-decoration: none;
+    background-color: darkorange; 
+    color: white;
+}
+
+a:hover h2 { 
+    text-decoration: none;
+    background-color: darkorange; 
+    color: white;
+}
+
+h2 {
+    color: darkorange;
+	font-family: 'Poiret One';
+}
+
+.page h1, .contacto h1, .blog h1, .blog-post h1 {
+    font-size: 200%;
+}
+
+.page h2, 
+.contacto h2, 
+.blog h2, 
+.blog-post h2, 
+.actividad-aventura h2, 
+.bici h2, 
+.quad h2, 
+.kayak h2, 
+.guias-naturaleza h2, 
+.guias-urbanos h2, 
+.gastro-cultura h2, 
+.alojamiento-page h2 
+{
+    margin-left: 35px;
+    margin-bottom: 0.4em;
+    font-size: 150%;
+}
+
+.fa-margen {
+    font-size: 100%;    
+    margin-top: 4px;
+    margin-right: 4px;
+    color: darkorange;
+}
+
+.ppt {
+    visibility: hidden;
+}
+
+.socialLink {
+    margin-top: 0px;
+}
+
+.zone-after-main {
+    text-align: center;
+    border-bottom-style: solid;
+    border-bottom-width: 3px;
+    border-bottom-color: lightgray;
+}
+
+.zone-footer {
+}
+
+.owl-carousel .item{
+  margin: 3px;
+}
+
+.owl-carousel .item img{
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.owl-item h2 {
+    font-size: 1.25em;
+}
