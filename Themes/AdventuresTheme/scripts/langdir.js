@@ -12,7 +12,11 @@ lang = lang.substr(0, 2);
 var dest = window.location.href;
 for (i = langcodes.length - 1; i >= 0; i--) {
     if (lang == langcodes[i]) {
-        dest = dest.replace(".html","-" + lang + ".html");
+	if (dest.indexof(".html") > 1) {
+	    dest = dest.replace(".html","-" + lang + ".html");
+	} else {
+	    dest = dest + "/index.html";
+        }
         window.location.replace ? window.location.replace(dest) : window.location = dest;
     }
 }
