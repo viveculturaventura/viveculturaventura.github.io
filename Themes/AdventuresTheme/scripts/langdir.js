@@ -12,7 +12,7 @@ lang = lang.substr(0, 2);
 var dest = window.location.href;
 for (i = langcodes.length - 1; i >= 0; i--) {
     if (lang == langcodes[i]) {
-	if (dest.indexof(".html") > 1) {
+	if (dest.indexOf(".html") > 1) {
 	    dest = dest.replace(".html","-" + lang + ".html");
 	} else {
 	    dest = dest + "/index.html";
